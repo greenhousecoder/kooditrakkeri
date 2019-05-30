@@ -1,0 +1,57 @@
+.box{
+    overflow:auto ;
+    overflow-x: hidden;
+    scrollbar-color: light;
+    min-height: 40vh;
+    max-height: 40vh;
+
+}
+.rivitbox{
+    font-size: 2.5vh;
+    padding: 2vh;
+    width: 50vw;
+    padding-left: 0vw;
+    
+    color: #777;
+text-align: center;
+border-bottom: 1px solid;
+
+}
+.tyyppi{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    margin-right: 0vw;
+    min-width: 15vw;
+    max-width: 15vw;
+    margin-left: 2vw;
+    overflow: hidden;
+    padding: 0.5vw;
+    
+
+}
+.tehot{
+padding: 1.1vh;
+}
+.tyyppi_info{
+    float: left;
+    padding: 0.5vw;
+    margin: 0 0 0 5vh;   
+text-align: center;
+}
+/*@media screen and   (700px){
+.tyyppi_info{
+    min-width: 90%;
+    max-width: 90%;
+}
+
+.tyyppi{
+    width: 100%;
+}
+
+.rivitbox{
+    width: 100%;
+}
+}
+*/

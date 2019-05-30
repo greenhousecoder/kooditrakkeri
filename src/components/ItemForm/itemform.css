@@ -1,0 +1,25 @@
+input{
+    
+    color: #222;
+    width: 10vw;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    margin-bottom: 3vh;
+    margin-top: 1.4vh;
+    background: #eee;    
+    padding: 1vh;
+}
+form{
+    
+    color: #eee;
+    text-align: left;
+}
+label{
+ color: #777;
+ text-shadow: 1px 1px   rgba(0,255,255,0.1);
+ padding: 1vh 3vw 0 0vh;
+ border-radius: 1vw 1vw 0 0;
+ min-width: 10vw;
+ width: 40vw;
+ 
+}

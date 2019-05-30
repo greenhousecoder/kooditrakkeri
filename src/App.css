@@ -1,0 +1,67 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+body{ 
+  background-image: url('bg.png');
+  
+}
+
+.App {
+  margin-left: 0vh;
+  margin-top: -5vh;
+  margin-bottom: 0vh;
+  background-image: url('bg.png');
+  min-width: 100vw;
+  opacity: 0.1;
+}
+h1{
+  margin-left: -4vw;
+  color: red;
+  text-align:center;
+  margin-top: -2vh;
+  text-shadow: -3px 0px  orange, 1px 0 #ddd, 0 3px lightblue;
+  font-size: 7vh;
+  font-family: 'Orbitron', sans-serif;
+  transform: rotate(-2deg);
+  padding: 5vh;
+}
+
+h4{
+  text-align: center;
+  color: rgba(00,0,0,0.8);
+  margin-top: -10vh;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 1px 1px  1px rgba(200,200,200,0.9);
+  margin-bottom: 5vh;
+}
+#spanni{
+  font-size: 3.5rem;
+  margin-bottom: -5rem;
+  color: orange;
+}
+
+.wrap{
+  min-width: 50vw;
+  max-width: 50vw;
+  max-height: 50vh;
+  padding: 2vw;
+  margin: 0 auto;
+  font-size: 2vh;
+  font-family: monospace, 'Orbitron', sans-serif;    
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  h4{
+}
+h1{
+  margin-left: 0vw;
+}
+.wrap{
+  max-width: 50vw;
+}
+
+}
